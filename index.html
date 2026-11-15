@@ -6,16 +6,16 @@
 <meta name="theme-color" content="#071b4a">
 <title>Una noche especial | Noemí Abigail</title>
 <style>
-:root{--navy:#061638;--blue:#123b82;--silver:#e7edf8;--pale:#cbd8f1;--gold:#d9dff0}
+:root{--navy:#102d70;--blue:#2865d5;--silver:#edf3ff;--pale:#dce8ff;--gold:#d9dff0}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;color:#fff;font-family:Georgia,"Times New Roman",serif;background:radial-gradient(ellipse at 50% 15%,#244c91 0%,#102b62 38%,#061638 78%);overflow-x:hidden}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.48;background-image:radial-gradient(2px 2px at 12% 18%,#fff 50%,transparent 60%),radial-gradient(1px 1px at 72% 12%,#fff 50%,transparent 60%),radial-gradient(2px 2px at 86% 63%,#dce8ff 50%,transparent 60%),radial-gradient(1px 1px at 31% 78%,#fff 50%,transparent 60%),radial-gradient(1px 1px at 56% 42%,#fff 50%,transparent 60%);background-size:240px 220px}
+body{margin:0;min-height:100vh;color:#fff;font-family:Georgia,"Times New Roman",serif;background:radial-gradient(ellipse at 50% 8%,#4b83e5 0%,#2862c4 30%,#17449b 60%,#0b2258 100%);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.72;background-image:radial-gradient(2px 2px at 12% 18%,#fff 50%,transparent 60%),radial-gradient(1px 1px at 72% 12%,#fff 50%,transparent 60%),radial-gradient(2px 2px at 86% 63%,#dce8ff 50%,transparent 60%),radial-gradient(1px 1px at 31% 78%,#fff 50%,transparent 60%),radial-gradient(1px 1px at 56% 42%,#fff 50%,transparent 60%);background-size:240px 220px}
 .sparkle{position:fixed;color:#eef4ff;opacity:.75;pointer-events:none;animation:twinkle 2.8s infinite ease-in-out}
 .s1{top:12%;left:9%}.s2{top:24%;right:10%;animation-delay:.8s}.s3{bottom:16%;left:14%;animation-delay:1.3s}.s4{bottom:22%;right:12%;animation-delay:.4s}
 @keyframes twinkle{0%,100%{opacity:.28;transform:scale(.7);filter:drop-shadow(0 0 2px #fff)}50%{opacity:1;transform:scale(1.35);filter:drop-shadow(0 0 9px #fff)}}
 .cover:before,.invite:before{content:"";position:absolute;inset:9px;border:1px solid rgba(236,243,255,.24);border-radius:20px;pointer-events:none;box-shadow:inset 0 0 24px rgba(215,230,255,.08)}
-.cover:after,.invite:after{content:"✧   ✦   ✧";position:absolute;top:17px;left:0;right:0;color:rgba(242,247,255,.75);font-size:13px;letter-spacing:1.5em;text-shadow:0 0 12px #fff;pointer-events:none}
+.cover:after,.invite:after{content:"✧   ✦   ✧";position:absolute;top:17px;left:0;right:0;color:rgba(255,255,255,.95);font-size:14px;letter-spacing:1.5em;text-shadow:0 0 12px #fff,0 0 22px #d8e7ff;pointer-events:none}
 .cover,.invite{isolation:isolate}
 .inner,.invite>*{position:relative;z-index:1}
 .actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:26px}
@@ -23,12 +23,12 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.48;ba
 button.secondary{background:rgba(8,28,70,.72);color:#edf3ff;border-color:rgba(235,243,255,.75);box-shadow:0 0 18px rgba(198,219,255,.18)}
 
 .wrap{width:min(92%,760px);margin:0 auto;padding:38px 0 54px;position:relative}
-.cover,.invite{border:1px solid rgba(232,240,255,.48);border-radius:26px;background:linear-gradient(145deg,rgba(255,255,255,.15),rgba(255,255,255,.045));box-shadow:0 18px 65px rgba(0,0,0,.35),inset 0 0 35px rgba(214,228,255,.06);backdrop-filter:blur(7px);text-align:center;overflow:hidden}
+.cover,.invite{border:1px solid rgba(232,240,255,.48);border-radius:26px;background:linear-gradient(145deg,rgba(255,255,255,.24),rgba(226,237,255,.09));box-shadow:0 18px 65px rgba(0,0,0,.35),inset 0 0 35px rgba(214,228,255,.06);backdrop-filter:blur(7px);text-align:center;overflow:hidden}
 .cover{min-height:76vh;display:flex;align-items:center;justify-content:center;padding:48px 24px}
 .inner{max-width:560px}
 .eyebrow{font:600 11px/1.5 Arial,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#d9e5ff}
 .rule{width:105px;height:1px;margin:24px auto;background:linear-gradient(90deg,transparent,#eaf0ff,transparent)}
-h1{font-size:clamp(38px,8vw,66px);font-weight:400;line-height:1.05;margin:20px 0;color:#fff;text-shadow:0 0 18px rgba(220,232,255,.55)}
+h1{font-size:clamp(38px,8vw,66px);font-weight:400;line-height:1.05;margin:20px 0;color:#fff;text-shadow:0 0 18px rgba(220,232,255,.8),0 0 34px rgba(255,255,255,.35)}
 .name{font-size:clamp(25px,5vw,38px);letter-spacing:.08em;color:#e4ebfa;margin:14px 0 30px}
 .subtitle{font-size:18px;line-height:1.7;color:#e5ecfb}
 button{border:1px solid #e5edff;background:linear-gradient(135deg,#edf2ff,#aebfdf);color:#0b204c;border-radius:999px;padding:15px 28px;font:700 12px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;box-shadow:0 7px 25px rgba(0,0,0,.25);transition:transform .2s,box-shadow .2s}
@@ -46,21 +46,54 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
 .audio-row{margin-top:24px;font:12px Arial,sans-serif;color:#dce6fb;letter-spacing:.08em}
 .audio-row button{padding:10px 17px;font-size:10px;margin-left:8px}
 .note{font:11px/1.6 Arial,sans-serif;color:#c4d2ee;margin-top:18px;opacity:.8}
-.butterfly{font-size:27px;color:#e7efff;opacity:.8;margin:15px 0}
+.butterfly{font-size:30px;color:#e7efff;opacity:.95;margin:15px 0;filter:grayscale(1) brightness(2.2) drop-shadow(0 0 8px rgba(255,255,255,.9));animation:floatButterfly 4s ease-in-out infinite}\n@keyframes floatButterfly{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-8px) rotate(4deg)}}
 @media(max-width:480px){.wrap{padding:18px 0 30px}.cover{min-height:80vh}.invite{border-radius:20px}}
+
+/* Efectos festivos: brillo, mariposas y confeti */
+#celebrationLayer{position:fixed;inset:0;z-index:8;overflow:hidden;pointer-events:none}
+.glitter-dot{position:absolute;width:4px;height:4px;border-radius:50%;background:#fff;box-shadow:0 0 6px 2px rgba(255,255,255,.9),0 0 15px 4px rgba(190,218,255,.7);animation:glitterDrift var(--dur) ease-in-out infinite;opacity:0}
+@keyframes glitterDrift{0%,100%{opacity:0;transform:translate3d(0,12px,0) scale(.45)}45%{opacity:.95}65%{opacity:.35;transform:translate3d(12px,-22px,0) scale(1.25)}}
+.butterfly-flight{position:absolute;left:-55px;top:var(--top);width:38px;height:30px;opacity:0;filter:drop-shadow(0 0 5px rgba(235,244,255,.8));animation:butterflyFlight var(--flight) linear infinite;animation-delay:var(--delay)}
+.butterfly-flight .wing{position:absolute;top:2px;width:17px;height:22px;background:linear-gradient(145deg,#fff 0%,#dce8ff 55%,#9fb9e8 100%);border:1px solid rgba(255,255,255,.9);box-shadow:inset 0 0 5px rgba(255,255,255,.85);transform-origin:100% 85%;border-radius:90% 15% 75% 20%}
+.butterfly-flight .wing.left{left:2px;transform:rotate(-22deg);animation:flapLeft .22s ease-in-out infinite alternate}
+.butterfly-flight .wing.right{right:2px;transform:scaleX(-1) rotate(-22deg);transform-origin:0 85%;animation:flapRight .22s ease-in-out infinite alternate}
+.butterfly-flight .body{position:absolute;left:18px;top:8px;width:3px;height:17px;border-radius:50%;background:#f8fbff;box-shadow:0 0 5px #fff;z-index:2}
+@keyframes flapLeft{from{transform:rotate(-35deg) scaleY(.92)}to{transform:rotate(25deg) scaleY(.62)}}
+@keyframes flapRight{from{transform:scaleX(-1) rotate(-35deg) scaleY(.92)}to{transform:scaleX(-1) rotate(25deg) scaleY(.62)}}
+@keyframes butterflyFlight{0%{transform:translate3d(-5vw,5vh,0) rotate(-8deg) scale(.75);opacity:0}8%{opacity:.9}22%{transform:translate3d(22vw,-7vh,0) rotate(9deg) scale(.95)}42%{transform:translate3d(48vw,5vh,0) rotate(-10deg) scale(1)}62%{transform:translate3d(70vw,-8vh,0) rotate(8deg) scale(.92)}90%{opacity:.85}100%{transform:translate3d(118vw,3vh,0) rotate(-7deg) scale(.75);opacity:0}}
+.confetti-piece{position:absolute;top:-24px;left:var(--left);width:var(--w);height:var(--h);border-radius:2px;background:var(--confetti);opacity:.95;transform:rotate(var(--rot));animation:confettiFall var(--fall) cubic-bezier(.2,.65,.35,1) forwards}
+@keyframes confettiFall{0%{transform:translate3d(0,-5vh,0) rotate(0deg);opacity:0}8%{opacity:1}100%{transform:translate3d(var(--drift),110vh,0) rotate(var(--spin));opacity:.15}}
+.sparkle-star{position:absolute;color:#fff;text-shadow:0 0 8px #fff,0 0 18px #bcd7ff;font-size:var(--size);animation:starPulse var(--pulse) ease-in-out infinite;animation-delay:var(--delay)}
+@keyframes starPulse{0%,100%{opacity:.25;transform:scale(.65) rotate(0deg)}50%{opacity:1;transform:scale(1.35) rotate(45deg)}}
+@media(prefers-reduced-motion:reduce){.glitter-dot,.floating-butterfly,.sparkle-star,.confetti-piece{animation:none!important}}
+
+
+
+/* Corona protagonista: elegante, dorada y sin elementos de torta */
+.crown-emblem{position:relative;width:176px;height:142px;margin:8px auto 18px;display:grid;place-items:center}
+.crown-emblem:before{content:"";position:absolute;width:132px;height:132px;border:1px solid rgba(255,239,190,.55);border-radius:50%;box-shadow:0 0 18px rgba(255,225,150,.26),inset 0 0 18px rgba(255,255,255,.10)}
+.crown-emblem:after{content:"✦       ✧       ✦";position:absolute;top:5px;left:0;right:0;color:#fff1c7;font-size:12px;letter-spacing:.35em;text-shadow:0 0 9px #fff1c7}
+.crown-symbol{position:relative;z-index:1;font-family:Georgia,serif;font-size:104px;line-height:1;color:#f5d78c;background:linear-gradient(145deg,#fff4c9 5%,#e8bd62 38%,#fff0b0 58%,#b98232 95%);background-clip:text;-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 3px 1px rgba(83,49,12,.45)) drop-shadow(0 0 13px rgba(255,226,151,.55));}
+.crown-caption{font:600 10px/1.5 Arial,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#f5e9c9;margin:0 auto 8px;text-shadow:0 0 10px rgba(255,255,255,.35)}
+
+
 </style>
 </head>
 <body>
 <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">✦</span><span class="sparkle s4">✧</span>
+<div id="celebrationLayer" aria-hidden="true"></div>
 <main class="wrap">
 <section class="cover" id="cover">
   <div class="inner">
     <div class="eyebrow">Una invitación especial</div>
     <div class="rule"></div>
-    <div class="butterfly">🦋</div>
+    <div class="crown-emblem" aria-label="Corona dorada decorativa">
+      <span class="crown-symbol">♛</span>
+    </div>
+    <div class="crown-caption">Una celebración para recordar</div>
     <h1>Una noche<br>especial...</h1>
     <div class="name">Noemí Abigail</div>
-    <p class="subtitle">Algo maravilloso está por suceder.<br>Me encantaría compartirlo contigo.</p>
+    <p class="subtitle">Me encantaría compartir<br>este momento contigo.</p>
     <div class="rule"></div>
     <button id="openInvite">Abrir invitación</button>
     <div class="note">Toca para descubrir todos los detalles ✨</div>
@@ -69,7 +102,7 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
 
 <section class="invite" id="invite">
   <div class="eyebrow">Con mucha alegría</div>
-  <div class="butterfly">🦋 ✧ 🦋</div>
+  
   <h2>¡Quiero invitarte<br>a celebrar conmigo!</h2>
   <div class="rule"></div>
   <p>Hay momentos en la vida que se vuelven inolvidables cuando los compartimos con las personas que queremos.</p>
@@ -101,7 +134,51 @@ const music=document.getElementById('bgMusic');
 const musicToggle=document.getElementById('musicToggle');
 const backButton=document.getElementById('backToCover');
 
+
+const celebrationLayer=document.getElementById('celebrationLayer');
+const glitterColors=['#ffffff','#e8f1ff','#c9dcff','#dce5f5'];
+for(let i=0;i<18;i++){
+  const dot=document.createElement('i');
+  dot.className='glitter-dot';
+  dot.style.left=(Math.random()*100)+'%';
+  dot.style.top=(Math.random()*100)+'%';
+  dot.style.setProperty('--dur',(3+Math.random()*5)+'s');
+  dot.style.animationDelay=(-Math.random()*7)+'s';
+  dot.style.background=glitterColors[i%glitterColors.length];
+  celebrationLayer.appendChild(dot);
+}
+for(let i=0;i<3;i++){
+  const star=document.createElement('span');
+  star.className='sparkle-star';
+  star.textContent=i%2?'✧':'✦';
+  star.style.left=(8+Math.random()*84)+'%';
+  star.style.top=(8+Math.random()*84)+'%';
+  star.style.setProperty('--size',(12+Math.random()*15)+'px');
+  star.style.setProperty('--pulse',(2+Math.random()*2.5)+'s');
+  star.style.setProperty('--delay',(-Math.random()*4)+'s');
+  celebrationLayer.appendChild(star);
+}
+
+function launchConfetti(){
+  const colors=['#ffffff','#dce8ff','#b8ccf0','#9bb8f0','#e8eefa'];
+  for(let i=0;i<30;i++){
+    const piece=document.createElement('span');
+    piece.className='confetti-piece';
+    piece.style.setProperty('--left',(Math.random()*100)+'%');
+    piece.style.setProperty('--w',(4+Math.random()*5)+'px');
+    piece.style.setProperty('--h',(7+Math.random()*9)+'px');
+    piece.style.setProperty('--confetti',colors[i%colors.length]);
+    piece.style.setProperty('--rot',(Math.random()*180)+'deg');
+    piece.style.setProperty('--spin',(360+Math.random()*900)+'deg');
+    piece.style.setProperty('--drift',((Math.random()-.5)*220)+'px');
+    piece.style.setProperty('--fall',(3.5+Math.random()*3)+'s');
+    piece.addEventListener('animationend',()=>piece.remove());
+    celebrationLayer.appendChild(piece);
+  }
+}
+
 openButton.addEventListener('click',async()=>{
+  launchConfetti();
   cover.style.display='none';
   invite.style.display='block';
   invite.scrollIntoView({behavior:'smooth',block:'start'});

@@ -70,10 +70,8 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
 
 
 /* Corona protagonista: elegante, dorada y sin elementos de torta */
-.crown-emblem{position:relative;width:176px;height:142px;margin:8px auto 18px;display:grid;place-items:center}
-.crown-emblem:before{content:"";position:absolute;width:132px;height:132px;border:1px solid rgba(255,239,190,.55);border-radius:50%;box-shadow:0 0 18px rgba(255,225,150,.26),inset 0 0 18px rgba(255,255,255,.10)}
-.crown-emblem:after{content:"✦       ✧       ✦";position:absolute;top:5px;left:0;right:0;color:#fff1c7;font-size:12px;letter-spacing:.35em;text-shadow:0 0 9px #fff1c7}
-.crown-symbol{position:relative;z-index:1;font-family:Georgia,serif;font-size:104px;line-height:1;color:#f5d78c;background:linear-gradient(145deg,#fff4c9 5%,#e8bd62 38%,#fff0b0 58%,#b98232 95%);background-clip:text;-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 3px 1px rgba(83,49,12,.45)) drop-shadow(0 0 13px rgba(255,226,151,.55));}
+.crown-emblem{position:relative;width:min(88%,300px);height:142px;margin:4px auto 12px;display:grid;place-items:center}
+.crown-image{display:block;width:100%;max-height:138px;object-fit:contain;filter:drop-shadow(0 3px 2px rgba(61,42,13,.35)) drop-shadow(0 0 10px rgba(255,224,143,.32));}
 .crown-caption{font:600 10px/1.5 Arial,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#f5e9c9;margin:0 auto 8px;text-shadow:0 0 10px rgba(255,255,255,.35)}
 
 
@@ -87,8 +85,8 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
   <div class="inner">
     <div class="eyebrow">Una invitación especial</div>
     <div class="rule"></div>
-    <div class="crown-emblem" aria-label="Corona dorada decorativa">
-      <span class="crown-symbol">♛</span>
+    <div class="crown-emblem" aria-label="Tiara dorada ornamental">
+      <img class="crown-image" src="corona-noemi.png" alt="Tiara dorada ornamental">
     </div>
     <div class="crown-caption">Una celebración para recordar</div>
     <h1>Una noche<br>especial...</h1>

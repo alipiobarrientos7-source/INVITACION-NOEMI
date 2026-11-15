@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#071b4a">
+<meta name="theme-color" content="#8f456d">
 <title>Una noche especial | Noemí Abigail</title>
 <style>
 :root{--navy:#102d70;--blue:#2865d5;--silver:#edf3ff;--pale:#dce8ff;--gold:#d9dff0}
@@ -108,22 +108,100 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
 }
 
 
-/* Marco dorado elegante para portada y tarjeta */
-.cover,.invite{
-  border:1.5px solid #d8b66b;
-  box-shadow:
-    0 0 0 1px rgba(255,239,190,.28),
-    0 0 18px rgba(226,190,112,.20),
-    0 18px 65px rgba(0,0,0,.34),
-    inset 0 0 35px rgba(214,228,255,.06);
+/* TEMÁTICA ROSADA DE NOEMÍ — conserva estructura, contenido y funcionamiento */
+:root{
+  --navy:#713653;
+  --blue:#c66b99;
+  --silver:#fff4f8;
+  --pale:#f9dce8;
+  --gold:#d9b66f;
+}
+body{
+  color:#fffafc;
+  background:
+    radial-gradient(ellipse at 50% 8%,#f7c9dc 0%,#e9a8c4 28%,#c978a0 58%,#8d456f 100%);
+}
+body:before{
+  opacity:.78;
+  background-image:
+    radial-gradient(2px 2px at 12% 18%,#fff 50%,transparent 60%),
+    radial-gradient(1px 1px at 72% 12%,#fff7fb 50%,transparent 60%),
+    radial-gradient(2px 2px at 86% 63%,#ffe3ef 50%,transparent 60%),
+    radial-gradient(1px 1px at 31% 78%,#fff 50%,transparent 60%),
+    radial-gradient(1px 1px at 56% 42%,#fff7fb 50%,transparent 60%);
+}
+.sparkle{
+  color:#fff3f8;
+  text-shadow:0 0 8px #fff,0 0 18px #f5bfd5;
 }
 .cover:before,.invite:before{
-  border:1px solid rgba(225,190,112,.78);
-  box-shadow:inset 0 0 16px rgba(239,211,151,.08),0 0 8px rgba(223,188,112,.12);
+  border-color:rgba(255,232,241,.72);
+  box-shadow:inset 0 0 24px rgba(255,220,235,.15),0 0 12px rgba(220,164,112,.12);
 }
 .cover:after,.invite:after{
-  color:#f4dfad;
-  text-shadow:0 0 8px rgba(255,235,185,.85),0 0 18px rgba(225,190,112,.48);
+  color:#fff6e7;
+  text-shadow:0 0 12px #fff,0 0 22px #e8c27b;
+}
+button.secondary{
+  background:rgba(111,48,82,.78);
+  color:#fff4f8;
+  border-color:rgba(255,226,239,.8);
+  box-shadow:0 0 18px rgba(255,214,231,.2);
+}
+.cover,.invite{
+  border:1.5px solid #dfbd78;
+  background:linear-gradient(145deg,rgba(255,247,251,.28),rgba(180,83,128,.20));
+  box-shadow:0 18px 65px rgba(79,25,55,.32),inset 0 0 35px rgba(255,230,241,.12);
+}
+.eyebrow{color:#fff0f6}
+.rule{background:linear-gradient(90deg,transparent,#f2d69b,transparent)}
+h1{
+  color:#fff;
+  text-shadow:0 0 18px rgba(255,239,247,.85),0 0 34px rgba(255,211,230,.45);
+}
+.name{color:#fff0f6;text-shadow:0 2px 12px rgba(111,48,82,.25)}
+.subtitle{color:#fff2f7}
+button{
+  border:1px solid #f3dba9;
+  background:linear-gradient(135deg,#fff8fb 0%,#f7d7e5 52%,#e9b8cf 100%);
+  color:#713653;
+  box-shadow:0 7px 25px rgba(79,25,55,.25),0 0 0 2px rgba(255,239,247,.18);
+}
+button:hover{box-shadow:0 10px 30px rgba(79,25,55,.35),0 0 18px rgba(255,224,238,.35)}
+.invite h2{color:#fff4f8;text-shadow:0 0 16px rgba(255,221,236,.32)}
+.invite p{color:#fff1f6}
+.highlight{
+  color:#ffe6b2;
+  text-shadow:0 0 12px rgba(242,205,139,.3);
+}
+.details{
+  border-top-color:rgba(255,230,240,.55);
+  border-bottom-color:rgba(255,230,240,.55);
+}
+.detail{color:#ffe8f1}
+.detail strong{color:#fffafc;text-shadow:0 0 10px rgba(255,220,235,.2)}
+.footer{color:#fff4f8!important}
+.audio-row,.note{color:#ffeaf2}
+.butterfly{
+  color:#fff0f6;
+  filter:grayscale(0) drop-shadow(0 0 8px rgba(255,226,239,.9));
+}
+.glitter-dot{
+  background:#fff;
+  box-shadow:0 0 6px 2px rgba(255,255,255,.95),0 0 15px 4px rgba(255,194,220,.8);
+}
+.butterfly-flight{filter:drop-shadow(0 0 6px rgba(255,221,237,.9))}
+.butterfly-flight .wing{
+  background:linear-gradient(145deg,#fffafd 0%,#f8d6e5 55%,#e8a9c6 100%);
+  border-color:rgba(255,247,251,.95);
+  box-shadow:inset 0 0 5px rgba(255,255,255,.9);
+}
+.sparkle-star{
+  color:#fff8fb;
+  text-shadow:0 0 8px #fff,0 0 18px #f3b9d2;
+}
+@media(max-width:480px){
+  .cover,.invite{box-shadow:0 14px 42px rgba(79,25,55,.3),inset 0 0 25px rgba(255,230,241,.1)}
 }
 
 </style>
@@ -166,7 +244,7 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
     <div class="detail">HORA<strong>06:30 PM</strong></div>
     <div class="detail">LUGAR<strong>Señor del Huerto<br>Mz U Lt 05 – Mercado Covadonga – Grifo Robin</strong></div>
   </div>
-  <p class="footer">Con mucho cariño,<br>Noemí Abigail 💙</p>
+  <p class="footer">Con mucho cariño,<br>Noemí Abigail 💗</p>
   <div class="actions">
     <button id="musicToggle" type="button">Silenciar música</button>
     <button id="backToCover" class="secondary" type="button">Regresar a la portada</button>
@@ -209,7 +287,7 @@ for(let i=0;i<3;i++){
 }
 
 function launchConfetti(){
-  const colors=['#ffffff','#dce8ff','#b8ccf0','#9bb8f0','#e8eefa'];
+  const colors=['#ffffff','#fbe3ed','#f2c5d8','#e6b9a0','#f7e7c4'];
   for(let i=0;i<30;i++){
     const piece=document.createElement('span');
     piece.className='confetti-piece';

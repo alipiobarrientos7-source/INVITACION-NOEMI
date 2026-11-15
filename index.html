@@ -107,6 +107,25 @@ button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
   .actions button{width:100%}
 }
 
+
+/* Marco dorado elegante para portada y tarjeta */
+.cover,.invite{
+  border:1.5px solid #d8b66b;
+  box-shadow:
+    0 0 0 1px rgba(255,239,190,.28),
+    0 0 18px rgba(226,190,112,.20),
+    0 18px 65px rgba(0,0,0,.34),
+    inset 0 0 35px rgba(214,228,255,.06);
+}
+.cover:before,.invite:before{
+  border:1px solid rgba(225,190,112,.78);
+  box-shadow:inset 0 0 16px rgba(239,211,151,.08),0 0 8px rgba(223,188,112,.12);
+}
+.cover:after,.invite:after{
+  color:#f4dfad;
+  text-shadow:0 0 8px rgba(255,235,185,.85),0 0 18px rgba(225,190,112,.48);
+}
+
 </style>
 </head>
 <body>
